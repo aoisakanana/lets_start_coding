@@ -47,6 +47,18 @@ subgraph "railsなし（静的）"
 end
 ```
 
+```mermaid
+sequenceDiagram
+  box green "railsあり(アプリ)"
+    participant C as クライアント
+    participant S as サーバー
+    participant D as データベース
+  end
+  C->>S: リクエスト 
+  S->>S: 計算
+  S<<->>D: データ取得・作成・更新・削除
+  S->>C: ファイル(html/css/js) or データ
+```
 
 ### 環境と最初のプログラミング  
 
