@@ -49,7 +49,7 @@ end
 
 ```mermaid
 sequenceDiagram
-  box green "railsあり(アプリ)"
+  box black "railsあり(アプリ)"
     participant C as クライアント
     participant S as サーバー
     participant D as データベース
@@ -139,6 +139,10 @@ ruby(irb)で対話的に動作を確認します。
 
 ===== 個人開発の壁 =====
 
+===== AI駆動開発の導入 =====
+生成AIを補助として取り入れよう
+===========================
+
 ### step3(300時間〜 /300時間)  
 
 効率のいいプログラミングを知ろう
@@ -160,6 +164,11 @@ ruby(irb)で対話的に動作を確認します。
 - 他のフレームワーク(言語)を試してみよう
   * next.js(javascript)
   * django(python)
+
+AI駆動開発をはじめよう
+- AIエージェントセットアップ
+  * AI をcopilotとして利用する  
+  * AI にIssueを解決させる  
 
 ### step4(300時間〜 /100時間)  
 
